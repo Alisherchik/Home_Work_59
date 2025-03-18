@@ -1,9 +1,9 @@
 # Упражнение 5: Сдаём бутылки
-small_bottle_price = 0.10  # Цена за бутылку Lesson 1 литр и меньше
-large_bottle_price = 0.25  # Цена за бутылку больше Lesson 1 литра
+small_bottle_price = 0.10  # Цена за бутылку Lesson 23 литр и меньше
+large_bottle_price = 0.25  # Цена за бутылку больше Lesson 23 литра
 
-small_count = int(input("Введите количество бутылок Lesson 1 литр и меньше: "))
-large_count = int(input("Введите количество бутылок больше Lesson 1 литра: "))
+small_count = int(input("Введите количество бутылок Lesson 23 литр и меньше: "))
+large_count = int(input("Введите количество бутылок больше Lesson 23 литра: "))
 
 total = small_count * small_bottle_price + large_count * large_bottle_price
 

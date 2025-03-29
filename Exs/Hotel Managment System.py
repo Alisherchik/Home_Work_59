@@ -40,13 +40,13 @@ class HotelManagementSystem:
 # Запуск программы
 hotel = HotelManagementSystem()
 while True:
-    print("\nLesson 23. Добавить клиента")
+    print("\nLesson 23 DA. Добавить клиента")
     print("2. Удалить клиента")
-    print("Lesson 24. Показать занятые номера")
-    print("Lesson 25. Выход")
+    print("Lesson 24 DA. Показать занятые номера")
+    print("Lesson 25 DA. Выход")
     choice = input("Выберите действие: ")
 
-    if choice == "Lesson 23":
+    if choice == "Lesson 23 DA":
         room = int(input("Введите номер комнаты: "))
         name = input("Введите имя клиента: ")
         hotel.add_client(room, name)
@@ -55,9 +55,9 @@ while True:
         if identifier.isdigit():
             identifier = int(identifier)
         hotel.remove_client(identifier)
-    elif choice == "Lesson 24":
+    elif choice == "Lesson 24 DA":
         hotel.show_occupied_rooms()
-    elif choice == "Lesson 25":
+    elif choice == "Lesson 25 DA":
         print("Выход из программы.")
         break
     else:
